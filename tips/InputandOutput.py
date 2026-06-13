@@ -18,7 +18,7 @@ pw2 = int(input("Insert passwords:"))
 
 if pw1 == pw2 :
     
-    m1 = input("Insert withdraw:")
+    m1 = input("Insert withdraw: ")
     ml = total - int(m1)
 
     print(f"The amount of the less money is {ml}")

@@ -1,31 +1,3 @@
-#this file includes namerules,print,operators
-
-#Identifier标识符( & Naming rules of variable):
-"""
-1. variable only contains: numbers(0-9), alphabet(a-z,A-Z), underscore(_)
-2. cannot start with number
-3. Variable names are case-sensitive (age, Age and AGE are three different variables)
-4. cannot use Python keywords as a name(print,if,...)
-example: 
-Correct: value1,myValue123,_,_myv1,fooo,VLQU1
-Incorrect:1my_, 234, .\[;m], my var 
-"""
-
-#Print()
-"""
-x=1
-y=2
-z="Hello"
-a="Python"
-
-print(x+y)  #3
-print(x,y)  #1 2
-print(x+z)  #error(TypeError,int and str cannot add together)
-print(x,z)  #1 Hello
-print(z+a)  #HelloPython
-print(z,a)  #Hello Python
-"""
-
 #Python Operator
 """
 1. Python Arithmetic Operators 加减乘除
@@ -40,6 +12,8 @@ print(x / y) #0.5 Division
 print(x % y) #1 Modulus
 print(x ** y) #1 Exponentiation 指数运算 1^2
 print(x // y) #1 Floor division 向下取整 1/2=0.5=0 (不是1,因为是向下取整)
+
+priority: **->*,/,//,%->+,-
 
 2.Assignment Operators 
 Operator	Example	        Same As

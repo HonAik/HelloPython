@@ -16,5 +16,10 @@ match oper:
             print(f"{num1} / {num2} = {num1 / num2}")
         else:
             print(f"numbers cannot divided by {num2}")
+    
+    #also can write like this:
+    # case "/" if num2 != 0: #if True then go to case
+    #       print(f"{num1} / {num2} = {num1 / num2}")
+
     case _:
         print("This is an error")

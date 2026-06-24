@@ -1,0 +1,15 @@
+{
+    "name": "Reynolds",
+    "character": "A helpful and friendly assistant",
+    "currentsection": "2026-06-24_191128",
+    "messages": [
+        {
+            "role": "user",
+            "content": "你好"
+        },
+        {
+            "role": "assistant",
+            "content": "你好！很高兴见到你！有什么我可以帮忙的吗？无论是回答问题、提供建议，还是陪你聊天，尽管告诉我！😊"
+        }
+    ]
+}
